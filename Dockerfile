@@ -8,7 +8,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 	&& debconf-set-selections /tmp/debconf-preseed \
 	&& apt-get update \
 	&& apt-get -y dist-upgrade \
-	&& apt-get -y install apt-cacher-ng \
+	&& apt-get -y install apt-cacher-ng/jessie-backports \
 	&& apt-get -y install supervisor \
 	&& apt-get -y install anacron unattended-upgrades ssmtp apt-listchanges \
 	&& rm -rf /var/lib/apt/lists/* \
