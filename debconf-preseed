@@ -1,14 +1,14 @@
-apt-cacher-ng   apt-cacher-ng/gentargetmode     select  Set up now and update later
+apt-cacher-ng   apt-cacher-ng/gentargetmode     select Set up now and update later
 apt-cacher-ng   apt-cacher-ng/cachedir  string
-apt-cacher-ng   apt-cacher-ng/port      string  3142
+apt-cacher-ng   apt-cacher-ng/port      string 3142
 apt-cacher-ng   apt-cacher-ng/bindaddress       string
-apt-cacher-ng   apt-cacher-ng/proxy     string  http://192.168.132.1:8080/
-ssmtp   ssmtp/root      string  mail+acng@danny-edel.de
-ssmtp   ssmtp/mailhub   string  mail.hq.code-worms.com
-ssmtp   ssmtp/port      string  25
-ssmtp   ssmtp/rewritedomain     string  acng.hq.code-worms.com
+apt-cacher-ng   apt-cacher-ng/proxy     string http://192.168.132.1:8080/
+ssmtp   ssmtp/root      string mail+acng@danny-edel.de
+ssmtp   ssmtp/mailhub   string mail.hq.code-worms.com
+ssmtp   ssmtp/port      string 25
+ssmtp   ssmtp/rewritedomain     string acng.hq.code-worms.com
 ssmtp   ssmtp/fromoverride      boolean false
-ssmtp   ssmtp/hostname  string  acng.hq.code-worms.com
+ssmtp   ssmtp/hostname  string acng.hq.code-worms.com
 ssmtp   ssmtp/overwriteconfig   boolean true
 ssmtp   ssmtp/mailname  string
 unattended-upgrades     unattended-upgrades/enable_auto_updates boolean true
