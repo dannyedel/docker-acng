@@ -12,7 +12,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
 	&& apt-get -y install \
 		apt-cacher-ng/jessie-backports \
 		supervisor \
-		anacron unattended-upgrades ssmtp apt-listchanges \
+		cron unattended-upgrades ssmtp apt-listchanges \
 	&& apt-get clean \
 	&& apt-get -y autoclean \
 	&& apt-get -y autoremove \
