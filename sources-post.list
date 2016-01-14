@@ -1,3 +1,3 @@
-deb http://localhost:3142/debian stable main
-deb http://localhost:3142/debian stable-backports main
-deb http://localhost:3142/security.debian.org stable/updates main
+deb http://localhost:3142/debian jessie main
+deb http://localhost:3142/debian jessie-backports main
+deb http://localhost:3142/security.debian.org jessie/updates main

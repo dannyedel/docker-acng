@@ -1,4 +1,4 @@
-FROM debian:stable
+FROM debian:jessie
 MAINTAINER mail@danny-edel.de
 
 COPY sources-pre.list /etc/apt/sources.list
