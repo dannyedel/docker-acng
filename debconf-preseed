@@ -12,3 +12,8 @@ ssmtp   ssmtp/hostname  string acng.hq.code-worms.com
 ssmtp   ssmtp/overwriteconfig   boolean true
 ssmtp   ssmtp/mailname  string
 unattended-upgrades     unattended-upgrades/enable_auto_updates boolean true
+apt-listchanges	apt-listchanges/email-address	string	root
+apt-listchanges	apt-listchanges/which	select	both
+apt-listchanges	apt-listchanges/confirm	boolean	false
+apt-listchanges	apt-listchanges/frontend	select	text
+apt-listchanges	apt-listchanges/save-seen	boolean	true
