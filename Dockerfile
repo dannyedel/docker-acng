@@ -26,6 +26,8 @@ COPY sources-post.list /etc/apt/sources.list
 
 COPY supervisord.conf /etc/supervisor/conf.d/
 
+COPY zzz_override.conf /etc/apt-cacher-ng/
+
 EXPOSE 3142
 
 ENTRYPOINT [ "/usr/bin/supervisord" ]
