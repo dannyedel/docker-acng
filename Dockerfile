@@ -19,7 +19,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& rm -rf /tmp/*
 
-COPY backends_debian backends_ubuntu \
+COPY backends_debian backends_ubuntu backends_raspbian \
 	/etc/apt-cacher-ng/
 
 COPY sources-post.list /etc/apt/sources.list
